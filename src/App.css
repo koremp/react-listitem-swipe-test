@@ -6,9 +6,16 @@
 }
 
 .list {
-  list-style: none;
-
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: auto;
+  gap: 20px;
 }
 
 .list-item {
+  height: 30px;
+  background-color: grey;;
+
 }
